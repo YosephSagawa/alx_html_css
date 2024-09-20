@@ -29,6 +29,7 @@ nav ul li a{
     background-repeat: no-repeat;
     height: 150vh;
 }
+/* get_schooled section with bottom content*/
 .get_schooled{
     display: flex;
     flex-direction: column;
@@ -46,7 +47,75 @@ nav ul li a{
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 15px 30px;
+    padding: 0 30px;
     justify-content: center;
     font-family: var(--primary-font);
+    font-size: 16px;
+}
+
+.get_schooled button{
+    margin: 30px;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    border-style: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    background-color: #C271FF;
+    color: white;
+    font-size: 14px;
+    font-family: var(--primary-font);
+}
+
+.learn_from_experts h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+}
+/*expert section*/
+.experts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px 0 0 0;
+}
+
+.expert {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    margin: 0 70px;
+    transform: scale(0.8);     
+}    
+
+.experts_detail {
+    font-family: var(--primary-font);
+    color: white;
+    text-align: center;
+    margin: 20px;   
+    padding-bottom: 0%;
+}
+.experts_detail h3{
+    font-weight: bold;
+}
+
+/*peron name */
+.personname{
+    height: 392px;
+    width: 100%;
+    background-color: #C271FF;
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0 100px 0;
 }
