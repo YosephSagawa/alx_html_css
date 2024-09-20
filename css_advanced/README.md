@@ -1,0 +1,1 @@
+This is a website to teach people how to smile and they are supported by pros all around the world to help people smile.
