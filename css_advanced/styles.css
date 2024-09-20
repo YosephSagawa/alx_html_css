@@ -119,3 +119,10 @@ nav ul li a{
     justify-content: center;
     padding: 110px 0 100px 0;
 }
+
+.person_detail{
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 22px;
+    margin-left: 50px;
+}
