@@ -1,3 +1,7 @@
+:root{
+    --primary-font: 'Source Sans Pro';
+}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -15,12 +19,34 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: white;
-    padding: 10px;
-    font-size: 12;
+    padding: 30px;
+    font-size: 12px;
+    font-family: var(--primary-font);
 }
 .landing_page{
     background-image:url(images/CSS\ Advanced/Object.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 150vh;
+}
+.get_schooled{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.get_schooled h1{
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+    font-family:var(--primary-font);
+}
+.get_schooled span{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 30px;
+    justify-content: center;
+    font-family: var(--primary-font);
 }
