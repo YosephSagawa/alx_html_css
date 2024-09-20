@@ -26,9 +26,6 @@ article h2{
     border-radius: 20px;
 }
 
-article img{
-    
-}
 aside{
     flex:1;
     overflow-y: auto;
