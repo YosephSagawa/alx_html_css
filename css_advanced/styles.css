@@ -1,5 +1,5 @@
 :root{
-    --primary-font: 'Source Sans Pro';
+    --primary-font: 'Source Sans Pro', sans-serif;
 }
 
 nav{
@@ -140,8 +140,25 @@ nav ul li a{
     padding: 0px 10px;
 }
 
-.tutorial_cards img{
+
+/*overlay image*/
+.image_container{
+    position: relative;
+    display: inline-block;
+}
+.background_image{
+    display: block;
     width: 100%;
+    height: auto;
+}
+
+.overlay_image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 50px;
 }
 
 .tutorial_detail{
@@ -153,17 +170,45 @@ nav ul li a{
 .tutorial_detail h3{
     font-weight: bold;
     padding: 20px;
+    font-family: var(--primary-font);
 }
 .Phillip img{
-    transform: scale(0.2);
-    width: auto;
+    width: 40px;
     height: auto;
+    margin-right: 5px;
 }
 .Phillip{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 0 0 10px 0;
-    padding: 0 0 0 0;
+    margin-top: 20px;
+}
+
+.Phillip h4{
+    font-size: 14px;
+    width: 150px;
+    height: auto;
+    font-family: var(--primary-font);
+    color: #C271FF;
+    text-align: center;
+    font-weight: 600;
+}
+/*rating*/
+.rating img{
+    width: 150px;
+    height: 20px;
+    margin-top: 10px;
+}
+.rating p{
+    font-family: var(--primary-font);
+    color: #C271FF;
+    font-weight: 600;
+    margin-right:20px;
+}
+.rating{
+    display: flex;  
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
 }
