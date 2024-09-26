@@ -65,6 +65,8 @@ body {
 
 .cards p{
     font-size: 14px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .holberton_school-icon-ic_sound{
@@ -89,4 +91,36 @@ body {
     color: #FF6565;
     transform: scale(6);
     width: 50px;
+}
+
+@media  (max-width: 480px) {
+    .wwd_container{
+        width: auto;
+        height: auto;
+        margin-top: 2,5rem;
+    }
+    .description{
+        width: 100vw;
+        margin-left:1rem;
+        margin-right: 1rem;
+        justify-content: center;
+    }
+    .description h1{
+        font-size: 32px;
+    }
+    .description p{
+        text-align: center;
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cardcontainer{
+        flex-direction: column;
+    }
+    .cards{
+        margin-bottom: 4rem;
+    }
+    .cards p{
+        width: 60vw;
+    }
 }
