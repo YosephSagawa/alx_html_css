@@ -17,7 +17,6 @@ body{
 .oscontainer{
     width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,4 +51,34 @@ body{
 
 .per_cards{
     margin: 0 2rem;
+}
+
+@media  (max-width: 480px) {
+    .oscontainer{
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+    }
+    .osdescription{
+        width: 100vw;
+        margin-top: 3.5rem;
+        margin-left:1rem;
+        margin-right: 1rem;
+        justify-content: center;
+    }
+    .osdescription h1{
+        font-size: 32px;
+    }
+    .osdescription p{
+        text-align: center;
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .percentage_container{  
+        flex-direction: column;
+    }
+    .per_cards{
+        margin-bottom: 1rem;
+    }
 }
