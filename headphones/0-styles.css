@@ -95,3 +95,53 @@ p{
     margin: 20px auto;
     line-height: 1.7;
 }
+
+.menuicon{
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+@media  (max-width: 480px) {
+    .container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .calltoaction{
+        margin-top: 100px;
+    }
+    .calltoaction h1{
+        font-size: 32px;
+    }
+    .calltoaction p{
+        font-size: 16px;
+        margin-top: 0.5rem;
+    }
+    .bottomdescription{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .menuicon{
+        display: block;
+        margin-right: auto;
+    }
+    .navlinks {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+      }
+    
+      .navlinks.active {
+        display: flex;
+      }
+    
+}
