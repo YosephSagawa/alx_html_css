@@ -1,0 +1,92 @@
+:root{
+    --primary-font: 'Source Sans Pro';
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: var(--primary-font);
+    line-height: 1.2;
+}
+
+.wwd_container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.description{
+    margin-top: 6rem;
+}
+
+.description h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.description p{
+    width: 50vw;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top:2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cards p{
+    font-size: 14px;
+}
+
+.holberton_school-icon-ic_sound{
+    color: #FF6565;
+    transform: scale(6);
+    width: 50px;
+}
+
+.holberton_school-icon-ic_video{
+    color: #FF6565;
+    transform: scale(6);
+    width: 50px;
+}
+
+.holberton_school-icon-ic_hearing{
+    color: #FF6565;
+    transform: scale(6);
+    width: 50px;
+}
+
+.holberton_school-icon-ic_music{
+    color: #FF6565;
+    transform: scale(6);
+    width: 50px;
+}
