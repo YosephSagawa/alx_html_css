@@ -1,3 +1,7 @@
+:root{
+    --primary-font: 'Source Sans Pro';
+}
+
 .pentagon{
     height: 0;
     width: 70px;
@@ -11,9 +15,6 @@
 .pentagon:before{
     position: absolute;
     content: '';
-    display: flex;
-    justify-content: center;
-    align-items:center;
     height: 0;
     width: 0;
     border-bottom: 100px solid #FF6565;
@@ -23,9 +24,53 @@
     left: -85px;
 }
 
+.pentagon::after{
+    content: '+2% Lorem ipsum dolor';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -190%);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    width: 100%;
+}
+
 .pentagon_container{
     margin-top: 6rem;
     display: flex;
     align-content: center;
     flex-direction: row;
+}
+
+@media  (max-width: 480px) {
+    .oscontainer{
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+    }
+    .osdescription{
+        width: 100vw;
+        margin-top: 3.5rem;
+        margin-left:1rem;
+        margin-right: 1rem;
+        justify-content: center;
+    }
+    .osdescription h1{
+        font-size: 32px;
+    }
+    .osdescription p{
+        text-align: center;
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pentagon_container{  
+        flex-direction: column;
+    }
+    .pentagon{
+        margin-top: 10rem;
+    }
 }
