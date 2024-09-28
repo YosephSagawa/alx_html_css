@@ -1,6 +1,6 @@
 @keyframes wwd_animation{
     0%   {background-color:white;color: black;}
-    100% {background-color: #071629;color: white;}
+    100% {background-color: #071629;color: white;opacity: 1;}
 }
 
 .cards:hover{
@@ -11,4 +11,14 @@
     animation-name: wwd_animation;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+
+@keyframes os_animation{
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.per_cards:hover{
+    animation-name: os_animation;
+    animation-duration: 2s;
 }
