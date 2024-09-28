@@ -1,0 +1,14 @@
+@keyframes wwd_animation{
+    0%   {background-color:white;color: black;}
+    100% {background-color: #071629;color: white;}
+}
+
+.cards:hover{
+    width: auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 20%;
+    animation-name: wwd_animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
