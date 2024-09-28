@@ -2,7 +2,7 @@
     --primary-font: 'Source Sans Pro';
 }
 
-body{
+.ourresults{
     background-image: url(images/headphones_hero_2.jpg);
     background-position: center;
     background-size: cover;
@@ -52,6 +52,8 @@ body{
 .per_cards{
     margin: 0 2rem;
 }
+
+
 
 @media  (max-width: 480px) {
     .oscontainer{

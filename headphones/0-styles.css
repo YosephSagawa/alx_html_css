@@ -2,7 +2,7 @@
     --primary-font: 'Source Sans Pro';
 }
 
-body {
+.firstpage {
     background-image:url(images/headphones_hero_1.jpg);
     background-position: center;
     background-size: cover;
@@ -17,7 +17,6 @@ body {
 .container{
     width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 nav{
@@ -43,10 +42,6 @@ a:hover{
 
 a:active{
     color: #FF6565;
-}
-
-p{
-    font-size: 16px;
 }
 
 .calltoaction{
@@ -114,10 +109,11 @@ p{
         text-align: center;
     }
     .calltoaction{
-        margin-top: 4rem;
+        margin-top: 10rem;
     }
     .calltoaction h1{
         font-size: 32px;
+        width: 95%;
     }
     .calltoaction p{
         font-size: 16px;
@@ -130,8 +126,14 @@ p{
     }
     .menuicon{
         display: block;
-        margin-right: auto;
+        margin-left: 1rem;
     }
+
+    nav{
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
     .navlinks {
         display: none;
         flex-direction: column;
