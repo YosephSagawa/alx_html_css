@@ -1,0 +1,60 @@
+footer{
+    background-color: #071629;
+    width: 100%;
+    height: auto;
+    padding: 4rem 0;
+}
+
+.logocontainer{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmediaicons{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transform: scale(1.6);
+}
+
+.holberton_school-icon-ic_facebook{
+    padding-left: 1rem;
+}
+
+.holberton_school-icon-ic_instagram{
+    padding-left: 1rem;
+}
+
+.holberton_school-icon-ic_twitter{
+    padding-left: 1rem;
+}
+
+footer p{
+    color: white;
+    opacity: 35%;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+@media  (max-width: 480px) {
+    .logocontainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .socialmediaicons{
+        margin-top: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

@@ -89,6 +89,7 @@ a:active{
     font-weight:400;
     margin: 20px auto;
     line-height: 1.7;
+    padding-bottom: 3rem;
 }
 
 .menuicon{
@@ -100,7 +101,8 @@ a:active{
 
 @media  (max-width: 480px) {
     .container{
-        width: 100vw;
+        width: 100%;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         flex-direction: column;
@@ -109,20 +111,21 @@ a:active{
         text-align: center;
     }
     .calltoaction{
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
     .calltoaction h1{
         font-size: 32px;
-        width: 95%;
+        width: 100%;
     }
     .calltoaction p{
         font-size: 16px;
         margin-top: 0.5rem;
     }
     .bottomdescription{
-        width: 100vw;
+        width: 100%;
         font-size: 16px;
         text-align: center;
+        padding-bottom: 4rem;
     }
     .menuicon{
         display: block;
