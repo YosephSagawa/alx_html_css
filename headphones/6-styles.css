@@ -1,0 +1,28 @@
+.pentagon{
+    height: 0;
+    width: 70px;
+    border-top: 100px solid #FF6565;
+    border-left: 100px solid transparent;
+    border-right: 80px solid transparent;
+    position: relative;
+    margin-left: 20px;
+}
+
+.pentagon:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 100px solid #FF6565;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    bottom: 100px;
+    left: -100px;
+}
+
+.pentagon_container{
+    margin-top: 6rem;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
