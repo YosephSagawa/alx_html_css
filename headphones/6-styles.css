@@ -1,8 +1,8 @@
 .pentagon{
     height: 0;
     width: 70px;
-    border-top: 100px solid #FF6565;
-    border-left: 100px solid transparent;
+    border-top: 126px solid #FF6565;
+    border-left: 85px solid transparent;
     border-right: 80px solid transparent;
     position: relative;
     margin-left: 20px;
@@ -11,13 +11,16 @@
 .pentagon:before{
     position: absolute;
     content: '';
+    display: flex;
+    justify-content: center;
+    align-items:center;
     height: 0;
     width: 0;
     border-bottom: 100px solid #FF6565;
-    border-left: 125px solid transparent;
-    border-right: 125px solid transparent;
-    bottom: 100px;
-    left: -100px;
+    border-left: 118px solid transparent;
+    border-right: 118px solid transparent;
+    bottom: 125px;
+    left: -85px;
 }
 
 .pentagon_container{
