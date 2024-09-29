@@ -46,10 +46,11 @@ footer p{
 
 @media  (max-width: 480px) {
     .logocontainer{
-        width: 100%;
+        width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
     }
@@ -57,5 +58,24 @@ footer p{
         margin-top: 2rem;
         margin-right: auto;
         margin-left: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media  (min-width: 481px) {
+    .logocontainer{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .socialmediaicons{
+        margin-top: 2rem;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
     }
 }
