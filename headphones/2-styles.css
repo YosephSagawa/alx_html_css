@@ -84,3 +84,36 @@
         margin-bottom: 1rem;
     }
 }
+
+@media (max-width: 768px){
+    .oscontainer{
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+    }
+    .osdescription{
+        width: 100vw;
+        margin-top: 3.5rem;
+        margin-left:1rem;
+        margin-right: 1rem;
+        justify-content: center;
+    }
+    .osdescription h1{
+        font-size: 32px;
+    }
+    .osdescription p{
+        text-align: center;
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .percentage_container{  
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .per_cards{
+        margin-bottom: 1rem;
+    }
+}
