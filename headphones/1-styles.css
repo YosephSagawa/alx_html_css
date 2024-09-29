@@ -125,3 +125,37 @@
         width: 60vw;
     }
 }
+
+@media (max-width: 768px){
+    .wwd_container{
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+    }
+
+    .cardcontainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cards{
+        margin-top: 4rem;
+    }
+
+    .description{
+        width: 50%;
+        margin-top: 3.5rem;
+        margin-left:1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .description h1{
+        font-size: 32px;
+    }
+    .description p{
+        text-align: center;
+    }
+}
