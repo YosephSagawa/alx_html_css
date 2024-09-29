@@ -79,3 +79,19 @@ form button:active{
         width: 100%;
     }
 }
+
+@media (max-width: 768px){
+    .form_container{
+        width: 50%;
+        height: auto;
+        margin-top: 2.5rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .form_container h1{
+        font-size: 32px;
+    }
+    input{
+        width: 100%;
+    }
+}
